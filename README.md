@@ -27,6 +27,10 @@ This folder contains the MySQL database design
 
 ## design and models of mechanics
 This folder contains the step files of the physical objects and the Autodesk fusion 360 project files
+all parts exported in 3 formats:
+- .f3d fusion 360 archive
+- .ipt inventor 2021 files
+- .stp or .step STEP files
 
 
 ## design and code of website
@@ -44,8 +48,11 @@ This folder contains the lists of materials that were used, and their datasheets
 
 
 # credits
-Thanks to the University of Utrecht in the Netherlands, whom subsidised the project and provided the assignment.
-In Particular [Ing. L. van Leeuwen](https://www.uu.nl/medewerkers/LvanLeeuwen) whom aided us in this project.
+Thanks to the "University of Utrecht" in the Netherlands, whom subsidised the project and provided the assignment.
+In particular [Ing. L. van Leeuwen](https://www.uu.nl/medewerkers/LvanLeeuwen) whom aided us in this project.
+
+Thanks to "[Spectrum Techniques](https://www.spectrumtechniques.com/)" whom cooperated whit us to control the ST365 Radiation counter externally over USB.
+In particular [Rod Taylor]() whom provided the needed guiding document to do so.
 
 Thanks to my students whom created the website, database and motor control as part of an high school research project.
 O. Kaufmann and J. Wansink 
