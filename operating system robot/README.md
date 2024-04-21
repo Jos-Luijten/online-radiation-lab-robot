@@ -15,19 +15,32 @@ installed from file: rk3588-usb-debian-bullseye-minimal-6.1-arm64-20240311.zip
 
 more up to date os can be found on: "[https://download.friendlyelec.com/NanoPiR6C](https://download.friendlyelec.com/NanoPiR6C)"
 
-it is flashed to an micro-SD card (SDHC to be precice) that is inserted to the SBC, and powered up.
+the OS is flashed to an micro-SD card* using win32diskimager from the "installation tools" folder.
+(* it was an micro-SDHC card to be precice)
+the card is inserted to the SBC, and the SBC is powered up.
+
+when SBC is booted up, run commands to update and upgrage:
+- sudo apt-get update
+- sudo apt-get upgrade
+- sudo reboot
 
 
 ## installng apache
-This folder contains the original Assignment description (wishes, demands and intent).
+in the commandline of the SBC use:
+- sudo apt install apache2
 
 
-## installing mysql
-This folder contains the code on the SBC that continuously checks the queue in the database for tasks
+## installing mysql (mariaDB)
+in the commandline of the SBC use:
+- sudo apt install mariadb-server
+- sudo mysql_secure_installation 
+    (removed all 'inteded for testing')
 
 
 ## installing php
-This folder contains the MySQL database design
+in the commandline of the SBC use:
+- sudo apt install php
+- sudo apt install php-mysql
 
 
 # credits
